@@ -1,11 +1,27 @@
+* {
+  margin: 0;
+}
+
 html, body {
   height: 100%;
-  background: black;
+  
 }
 
 body {
   display: grid;
   place-items: center;
+}
+main {
+  background: url(images/background.svg);
+  width: 375px;
+  height: 812px;
+}
+
+.container {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 h1 {
